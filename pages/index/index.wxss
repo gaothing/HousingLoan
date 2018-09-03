@@ -1,0 +1,136 @@
+.color-box{
+    height: 400rpx;
+    background: #0E8EE7;
+    padding: 0rpx 18rpx;
+}
+.head-box{
+    height: 92rpx;
+    margin:0 150rpx;
+    overflow: hidden;
+}
+.border{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 46rpx;
+    margin: 24rpx 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.head-box .head1{
+    float: left;
+    width: 206rpx;
+    text-align: center;
+    line-height: 46rpx;
+    font-size: 13px;
+    font-family: "苹方";
+    background: #fff;
+    color: #0E8EE7;
+    box-sizing: border-box;  
+}
+.head-box .head1-act{
+    color: #ffffff;
+    background: #0E8EE7; 
+}
+.head-box .head2{
+    color: #ffffff;
+    background: #0E8EE7;
+    border-right: 1px solid #fff;
+    border-radius: 1px;
+}
+.head-box .head2-act{
+    background: #fff;
+    color: #0E8EE7;
+}
+/*参考*/
+
+.give-mode,.rate,.g-nub,.r-nub{
+    color: #fff;
+    font-family: "苹方";
+    font-size: 12px;
+    margin-top: 24rpx;
+}
+.g-nub{
+    font-size: 48rpx;
+}
+.give-mode,.g-nub,.reduce,.er-nub{
+    float: left;
+    width: 50%;
+     color: #fff;
+    font-family: "苹方";
+    font-size: 12px;
+    margin-top: 24rpx;
+}
+.rate-box{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.total-box{
+    padding-left: 30rpx;
+    border-left: 1rpx solid #fff;
+    margin-top: 48rpx;
+}
+.rate-box{
+    margin-top: 48rpx;
+}
+.rate{
+    margin: 0;
+}
+/*详情*/
+.detail{
+    width: 100%;
+    height: 60rpx;
+    background: #E9F4F8;
+    font-size: 14px;
+    color: #6A6B6D;
+    text-align: center;
+    line-height: 60rpx;
+    font-family: "苹方";
+}
+.lei{
+    float: right;
+    width: 96%;
+    height: 100rpx;
+    line-height: 100rpx;
+    border-bottom: 1rpx solid #E4E4E4;
+}
+.lei1{
+    width: 100%;
+}
+.lei1 .left-word{
+    margin-left: 30rpx;
+}
+.lei .left-word{
+    float: left;
+    font-size: 16px;
+    font-family: "苹方";
+    color:#000; 
+}
+.lei .right-word{
+    float: right;
+    padding: 0 30rpx;
+    font-size: 16px;
+    font-family: "苹方";
+    color:#828282; 
+}
+.lei #myInput{
+    padding-left: 60rpx;
+    padding-top: 20rpx;
+    text-align: right;
+    line-height:180rpx; 
+    font-size: 18px;
+    font-family: "苹方";
+    color: #898989;
+    z-index: 999;
+}
+.bot{
+    float: left;
+    width: 96%;
+    /*height: 300rpx;*/
+    /*background: #F4F5F9;*/
+    font-size: 12px;
+    color: #999B9A;
+    box-sizing: border-box;
+    padding:10rpx 30rpx;
+    font-family: "苹方";
+}

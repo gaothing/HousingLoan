@@ -1,0 +1,20 @@
+{
+      "tabBar": {
+    "color":"#000",
+    "selectedColor":"#06BD04",
+    "backgroundColor": "#666",
+    "borderStyle": "black",
+    "position":"top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"pages/images/icon.png",
+      "selectedIconPath":"pages/images/icona.png"
+    }, {
+      "pagePath": "pages/show/show",
+      "text": "设置",
+      "iconPath":"pages/images/seta.png",
+      "selectedIconPath":"pages/images/set.png"
+    }]
+  }
+}

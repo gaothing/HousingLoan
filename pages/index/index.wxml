@@ -1,0 +1,49 @@
+<view class="color-box">
+<!--两选项-->
+    <view class="head-box">
+        <view class="border">
+            <view class="head1" style="color:{{active?'#fff':'#0E8EE7'}}; background:{{active?'#0E8EE7':'#fff'}}"  bindtap="lun">等额利息</view>
+            <view class="head1 head2" style="color:{{active?'#0E8EE7':'#fff'}};background:{{active?'#fff':'#0E8EE7'}}" bindtap="lunt">等额本金</view>
+        </view>        
+    </view>
+    <!--每月参考-->
+    <view class="give-mode">每月月供参考(元)</view>
+    <view class="reduce"  style="color:{{active?'#fff':'#0E8EE7'}}">每月递减(元)</view>
+    <view class="g-nub">{{w}}</view>
+    <view class="er-nub"  style="color:{{active?'#fff':'#0E8EE7'}}">{{reduce}}</view>
+    <view class="rate-box">
+        <view class="rate">支付利息(元)</view>
+        <view class="r-nub">{{tr}}</view>
+    </view>
+    <view class="rate-box total-box">
+        <view class="rate total">还款总金(元)</view>
+        <view class="r-nub t-nub">{{tq}}</view>
+    </view>
+</view>
+<!--还款详情-->
+<!--<view class="detail">等额本息还款详情</view>-->
+<view class="lei">
+    <view class="left-word">贷款类型</view>
+    <view class="right-word" bindtap="class">{{classy}} ></view>
+</view>
+
+<view class="lei">
+    <view class="left-word">贷款金额额(万)</view>
+    <input maxlength="4" placeholder="请输入金额"  class="right-word" id="myInput" bindinput="bindHideKeyboard" />
+</view>
+
+<view class="lei">
+    <view class="left-word">期限(年)</view>
+    <view class="right-word" bindtap="deadine">{{year}} ></view>
+</view>
+
+<view class="lei lei1">
+    <view class="left-word">利率(%)</view>
+    <view class="right-word" bindtap="rate">{{rate}} ></view>
+</view>
+<view class="bot">以上为央行2016年最新公布的贷款基准利率
+ <!--<input  maxlength="10" placeholder="最大输入长度10" />-->
+</view>
+<view bindtap="pay">支付</view>
+
+
